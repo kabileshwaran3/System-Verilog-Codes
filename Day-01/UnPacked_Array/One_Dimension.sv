@@ -3,7 +3,7 @@ module one_dimension;
   initial begin
     foreach(data[i])begin
       data[i]=$random;
-      $display("one dimension array[%0d]=%0p",i,data[i]);
+      $display("one dimension array[%0d]=%0d",i,data[i]);
     end
   end
 endmodule

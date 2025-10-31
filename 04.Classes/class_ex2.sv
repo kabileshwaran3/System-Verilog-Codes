@@ -27,5 +27,5 @@ module tb;
 endmodule
 
 
-# The tittle of the book Money and the author Virat and the price of the book 499
-# The tittle of the book psychology of money and the author Morgan and the price of the book 799
+# The tittle of the book [Money] and the author [Virat] and the price of the book [499]
+# The tittle of the book [psychology of money] and the author [Morgan] and the price of the book [799]

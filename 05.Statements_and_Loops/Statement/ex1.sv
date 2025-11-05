@@ -1,8 +1,8 @@
 module if_example;  
   initial begin
     int a, b;
-    a = 10;
-    b = 20;
+    a = 30;
+    b = 70;
     if(a>b)
       $display("a is greater than b");
     else if(a<b)

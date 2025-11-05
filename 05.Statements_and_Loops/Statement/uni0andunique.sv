@@ -14,6 +14,10 @@ endmodule
 
 //no error
 
+unique: Reports violations when (1) multiple conditions are true simultaneously, OR (2) no conditions match and there's no else clause
+
+unique0: Reports violations ONLY when multiple conditions are true simultaneously; does NOT report violations if none of the conditions match
+
 //unique ex
 module unique_ex;
   int a;

@@ -1,0 +1,20 @@
+// Code your design here
+class ex;
+  bit[31:0]data;
+  int value;
+  
+  function new(bit [31:0]data,int value);
+    data=data;
+    value=value;
+  endfunction
+endclass
+
+module assi;
+  ex p1;
+  initial begin
+    p1=new(150,30);
+   $display("The data =%0d,The value =%0d",p1.data,p1.value);
+  end
+endmodule
+
+# The data =0,The value =0

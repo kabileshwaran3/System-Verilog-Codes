@@ -8,7 +8,8 @@ class base;
 endclass
 
 class child_1 extends base;
- virtual function void display();
+ // virtual
+  function void display();
     $display("Display from first Child class");
     $display("Data = %0d , Addrs =%0d",data,addrs);    
   endfunction

@@ -20,15 +20,15 @@ class station;
       
       
 module ex;
-  station s1,s2;
+  station s1;
   initial begin
     s1=new();
     s1.name="Kovai_sf_express";
     s1.seat_no=49;
     s1.display();
     
-    s2=new();
-    s2.screen("salem SF express",12);
+    
+    s1.screen("salem SF express",12);
   end
 endmodule
 
